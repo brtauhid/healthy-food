@@ -32,7 +32,17 @@ const ContactInput = styled.input`
   font-size: 16px;
   color: #111111;
 `;
-const ContactBtn = styled.button``;
+const ContactBtn = styled.button`
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  padding: 16px 52px 16px 51px;
+  width: 95%;
+  background-color: #6a4aa1;
+  color: white;
+  font-size: 15px;
+`;
 
 const Contact = () => {
   return (

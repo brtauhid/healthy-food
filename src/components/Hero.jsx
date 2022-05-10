@@ -40,17 +40,17 @@ const Desc = styled.p`
 `;
 
 const Btn = styled.button`
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px 25px;
-  border-radius: 5px;
-  border: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-style: none;
+  font-weight: 700;
+  padding: 16px 52px 16px 51px;
 `;
 
 const Hero = () => {
   return (
     <Container>
-      <Left>left</Left>
+      <Left></Left>
       <Right>
         <Title>health</Title>
         <SubTitle>Time to Get Healthy & Active</SubTitle>
