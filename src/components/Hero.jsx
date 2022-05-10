@@ -36,6 +36,7 @@ const Desc = styled.p`
   width: 90%;
   margin: 30px 0;
   color: white;
+  line-height: 2;
 `;
 
 const Btn = styled.button`

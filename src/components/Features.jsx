@@ -7,7 +7,7 @@ import fish from "../img/fish.png";
 const Container = styled.div`
   height: 500px;
   display: flex;
-  padding: 0 50px;
+  padding: 0 5%;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -25,6 +25,8 @@ const Description = styled.p`
   font-size: 16px;
   color: #111111;
   margin: 20px 0;
+  line-height: 1.5;
+  font-weight: 500;
 `;
 const Btn = styled.button`
   text-transform: uppercase;
@@ -83,6 +85,7 @@ const F1Description = styled.p`
   font-size: 14px;
   text-align: center;
   color: white;
+  line-height: 2;
 `;
 const F2Title = styled.h1`
   font-size: 24px;
@@ -94,6 +97,7 @@ const F2Description = styled.p`
   font-size: 14px;
   text-align: center;
   color: white;
+  line-height: 2;
 `;
 const F3Title = styled.h1`
   font-size: 24px;
@@ -105,6 +109,7 @@ const F3Description = styled.p`
   font-size: 14px;
   text-align: center;
   color: white;
+  line-height: 2;
 `;
 const Features = () => {
   return (
