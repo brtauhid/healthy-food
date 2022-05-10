@@ -23,16 +23,19 @@ const Right = styled.div`
 const Title = styled.div`
   font-size: 130px;
   font-weight: 700;
+  color: white;
 `;
 const SubTitle = styled.div`
   font-size: 18px;
   font-weight: 700;
+  color: white;
 `;
 
 const Desc = styled.p`
   font-size: 16px;
-  width: 60%;
+  width: 90%;
   margin: 30px 0;
+  color: white;
 `;
 
 const Btn = styled.button`
