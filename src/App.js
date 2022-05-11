@@ -1,4 +1,5 @@
 import Blog1 from "./components/Blog1";
+import Blog2 from "./components/Blog2";
 import Contact from "./components/Contact";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
@@ -14,6 +15,7 @@ function App() {
       <Contact></Contact>
       <Tips></Tips>
       <Blog1></Blog1>
+      <Blog2></Blog2>
     </div>
   );
 }
