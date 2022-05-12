@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Blog1 from "./components/Blog1";
 import Blog2 from "./components/Blog2";
 import Contact from "./components/Contact";
@@ -18,6 +19,7 @@ function App() {
       <Blog1></Blog1>
       <Blog2></Blog2>
       <Gallery></Gallery>
+      <About></About>
     </div>
   );
 }
